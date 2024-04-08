@@ -136,6 +136,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
  # Authentication
 
  #Email
-
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST ='mail.digipodium.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "amanshukla5931@digipodium.com"
+EMAIL_HOST_PASSWORD = "digi59312k23"
  #Other 3rd party settings
  
